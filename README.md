@@ -16,6 +16,20 @@
 
 No ecossistema do **QuickBite**, aproximadamente **85% dos visitantes apenas navegam (vitrinistas) e apenas 15% efetivamente finalizam uma compra**. O desafio central deste MVP foi desenvolver um algoritmo capaz de identificar os 15% de compradores em potencial ainda durante a sessão ativa, permitindo que a equipe de Marketing dispare gatilhos proativos (como cupons de desconto limitados) de forma cirúrgica, sem desperdiçar a margem de lucro com clientes que não iriam converter.
 
+---
+
+## 🗂️ Sobre o Dataset (Origem e Contexto)
+
+Os dados utilizados neste projeto são baseados no renomado **Online Shoppers Purchasing Intention Dataset**, disponibilizado pelo repositório oficial da UCI.
+
+* **O que contém:** O dataset é composto por 12.330 sessões de navegação abstraídas. Ele mapeia a jornada do cliente combinando métricas do *Google Analytics* (como *BounceRates*, *ExitRates* e *PageValues*), volume de interação por categoria de página (Administrativa, Informativa ou Produtos) e informações contextuais de sessão (tipo de visitante, proximidade a datas promocionais e sistema operacional).
+* **A Natureza do Desbalanceamento:** Refletindo a realidade severa do varejo online, o alvo do modelo (`Revenue`) é altamente desbalanceado: 10.422 sessões (84,5%) resultaram em abandono, enquanto apenas 1.908 (15,5%) terminaram em compra.
+* **Autores:** C. Okan Sakar e Yomi Keles.
+* **Acesso Oficial:** [UCI Machine Learning Repository - Online Shoppers Dataset](https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset)
+* **Licença de uso:** This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+
+---
+
 ## 🧠 A Solução Técnica e Arquitetura
 
 O projeto supera o **Paradoxo da Acurácia**, cenário em que um modelo atinge 85% de acerto simplesmente classificando todos os acessos como "Abandono", tornando-se inútil para o negócio. Para garantir relevância preditiva, o modelo foi otimizado tendo o **F1-Score da classe minoritária (Conversão)** como norteador matemático.
