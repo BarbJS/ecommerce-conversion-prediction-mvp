@@ -1,6 +1,6 @@
 # 🛒 QuickBite: E-commerce Conversion Prediction (MVP)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]((https://colab.research.google.com/drive/1lagpkR-jysShZHQmXirVjRjADdOcEwNp?usp=sharing))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lagpkR-jysShZHQmXirVjRjADdOcEwNp?usp=sharing)
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-172424?style=flat&logo=xgboost&logoColor=white)
