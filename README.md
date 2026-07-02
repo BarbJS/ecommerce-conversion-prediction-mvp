@@ -70,8 +70,8 @@ Para reproduzir a pesquisa e a modelagem na sua máquina local:
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/](https://github.com/)[SEU_USUARIO]/[NOME_DO_REPOSITORIO].git
-   cd [NOME_DO_REPOSITORIO]
+   git clone https://github.com/BarbJS/ecommerce-conversion-prediction-mvp.git
+   cd ecommerce-conversion-prediction-mvp
 
 2. **Instale as dependências necessárias:**
    ```bash
