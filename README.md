@@ -11,6 +11,8 @@
 > 
 > 🎓 *Projeto de MVP (Minimum Viable Product) desenvolvido como requisito de conclusão da sprint de Machine Learning para a Pós-Graduação em Ciência de Dados & Analytics da **PUC-Rio**.*
 
+### Para abrir e executar o notebook do Google Colab, clique no ícone do Colab (Open in Colab) abaixo do título deste README.md.
+
 ---
 
 ## 🎯 O Desafio de Negócio
